@@ -8,7 +8,6 @@ import food from "../../images/food-ico.avif";
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
-// ❌ Maine woh galat import line yahan se HATA di hai ❌
 
 export default function Projects() {
   return (
@@ -59,7 +58,8 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      A fully functional Music Player app that lets you play, pause, skip, and enjoy songs smoothly in a stylish UI.
+                      A fully functional Music Player app that lets you play,
+                      pause, skip, and enjoy songs smoothly in a stylish UI.
                     </p>
                   </h6>
                   <div
@@ -110,7 +110,8 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      A book catalog system where you can search and view books by title, author, and category in a clean layout.
+                      A book catalog system where you can search and view books
+                      by title, author, and category in a clean layout.
                     </p>
                   </h6>
                   <div
@@ -161,7 +162,8 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      A modern food ordering website where users can explore menus, see featured dishes, and place orders online.
+                      A modern food ordering website where users can explore
+                      menus, see featured dishes, and place orders online.
                     </p>
                   </h6>
                   <div
@@ -179,13 +181,13 @@ export default function Projects() {
             </Col>
           </Row>
 
-         {/* 🔗 View All Button */}
-         <div className="blog--viewAll mt-4 text-center">
-           <Link to="/projects">
-                <button className="btn btn-primary">
-             View All <HiArrowRight className="viewArr" />
-                </button>
-             </Link>
+          {/* 🔗 View All Button */}
+          <div className="blog--viewAll mt-4 text-center">
+            <Link to="/projects">
+              <button className="btn btn-primary">
+                View All <HiArrowRight className="viewArr" />
+              </button>
+            </Link>
           </div>
         </Container>
       </Container>
