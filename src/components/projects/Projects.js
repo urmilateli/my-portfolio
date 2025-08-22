@@ -8,6 +8,7 @@ import food from "../../images/food-ico.avif";
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
+// ❌ Maine woh galat import line yahan se HATA di hai ❌
 
 export default function Projects() {
   return (
@@ -178,13 +179,13 @@ export default function Projects() {
             </Col>
           </Row>
 
-          {/* 🔗 View All Button */}
-          <div className="blog--viewAll mt-4 text-center">
-            <Link to="/projectspage">
-              <button className="btn btn-primary">
-                View All <HiArrowRight className="viewArr" />
-              </button>
-            </Link>
+         {/* 🔗 View All Button */}
+         <div className="blog--viewAll mt-4 text-center">
+           <Link to="/projects">
+                <button className="btn btn-primary">
+             View All <HiArrowRight className="viewArr" />
+                </button>
+             </Link>
           </div>
         </Container>
       </Container>
